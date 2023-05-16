@@ -1,0 +1,156 @@
+body {
+    font-family: Roboto;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.nav, .header_text {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.header_text{
+    margin: 0 19%;
+    gap: 10px
+}
+
+.header_links{
+    display: flex;
+    gap: 14px;
+}
+
+.header_links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 6px;
+}
+
+.header_text_base {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 48px;
+}
+
+.text {
+    color: #e5e7eb;
+    margin: 10px 0;
+}
+
+.header_btn, .contact_btn {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.header_pic img {
+    height: 132px;
+    width: 236px;
+}
+
+.main, .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text {
+    padding: 20px;
+}
+
+.main_text h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.main_credit {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cast {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+}
+
+.cast_pic {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.cast_text {
+    padding: 6px;
+    color: #4c4c4c;
+}
+strong {
+    color: #000;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 3% 10%;
+}
+
+.quote strong {
+    align-self: flex-end;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #ffffff;
+    margin: 50px;
+    padding: 50px;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+.contact_btn {
+    border: 2px solid #FFF;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 2em 0;
+}
